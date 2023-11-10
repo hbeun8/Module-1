@@ -265,3 +265,31 @@ h3 {
     margin-bottom: 15px;
     text-align: left;
 }
+
+
+.booking{
+    width:80%;
+    margin:auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.bookings-col{
+    flex-basis:44px;
+    border-radius:10px;
+    margin-bottom:5%;
+    text-align: left;
+    background: #fff3f3;
+    padding:25px;
+    cursor: pointer;
+}
+
+.bookings-col p{
+    padding: 0;
+}
+
+.bookings-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
