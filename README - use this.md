@@ -85,10 +85,22 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 In the GitHub repository, navigate to the Settings tab
 From the source section drop-down menu, select the Master Branch
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here - ( https://tbc]
+The live link can be found here - (https://tbc]
 
 ## Content
 
 Instructions on how to validate was taken from [Code Institute](https://learn.codeinstitute.net/courses/)
 The icons in the body were taken from [Font Awesome](https://fontawesome.com/)
 The map in the body was taken from [Bootstrap](https://mdboostrap.com/)
+
+## Stylistic Considerations
+-> Hero Image - Man riding the cycle.
+-> Font Family - Exo, Robeto.
+-> Font
+-> Display is Flex.
+-> Navbar: Padding is 2% 4%
+-> Nav Links: text align= right, flex = 1
+-> Nav Links UL LI: List-style = none, display = inline block, padding = 8px, 12px, position = relative.
+->
+-> Logo: Border 2PX, Red, Solid, Opacity: 0.9%
+->  
