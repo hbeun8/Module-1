@@ -1,18 +1,80 @@
-# Module 1
+# Module 1 - Assessment. 
+Developer: Varun Gupta
+Purpose of this document is to provide evidence of the work performed to meet the Module 1 Assessment Criteria. 
 
 # Eclectic* Cycles 
-Rental Cycles for all your adevntures. Choose one of our participants spread across London to rent your E-Cycle for your next adventure. Why choose Electric Cycles:
- - Get there quickly: Average user takes nearly 1 hour to commute to work. Get on a cycle and cut journey times by half. 
- - Safer Journey: With dedicated cycle lanes commuting in busy inner cities is not just faster, but also safer.
- - Future Planet: Take care of our planet and future generations by riding cycles.
- - More Affordable: A monthly pass costs just GBP 60, less than half the cost of a zone 1-3 tube pass. 
- Not just quicker, rental services offered by providers such as Lime, Tide and others is cheaper than a typical day fare on bus and tube combined
-
-**Websters dictionary says, Eclectic means deriving ideas, style, or taste from a broad and diverse range of sources**
-Mockup.
 (./assets/images/Responsive.png)
 
 (https://ui.dev/amiresponsive?url=https://saba-baroughi.github.io/Final-Project-CI/)
+
+Purpose of the website: Eclectic Cycles is an online resource that provides information on how users can learn about renting electric cycles as a means of shared-mobile, like a bus or a train. The site provides details information on partners that provides E Cycles as Shared Mobility, where they operate, what types of vehicles they provide and cost. While most providers charge based on usage per minute, the site also provides information on types of subscription based plan provided by our partners, which makes usage cheaper. [Consider adding journey planner]   
+
+Catchphrase: Rental E-Cycles for all your adevntures. 
+
+**Websters dictionary says, Eclectic means deriving ideas, style, or taste from a broad and diverse range of sources**
+
+Table of Contents:
+A. Project Goals.
+    1. Business Goals: 
+    2. User Goals
+B. UX: 
+    1. Target Audience
+    2. User Requirement and Expectation
+    3. User Stories
+C. Design: 
+    1. Design Choices
+    2. Colors 
+    3. Fonts
+    4. Structure
+    5. Wireframes
+D. Technology Used
+    1. Languages
+    2. Frameworks and Tools
+E. Features
+    1. Current Feature
+    2. Framework & Tools
+F. Testing
+    1. HTML Validation
+    2. CSS Validation
+    3. Accessibility
+    4. Performance
+    5. Device Testing
+    6. Browser compatibility
+    7. Testing user stories
+G. Bugs
+H. Deployment
+I. Credits
+J. Acknoledgments
+
+# Project Goals
+The purpose of the project is to showcase the benefits of using E Cycles for daily commute to work, shows or to just cycle around. Whilst the users understand and acknowledge that using cycles is better for the plannet, they dont understand that it is also cheaper, quicker, safer and healthier. The users will also learn more about providers and their offering. Finally, the users will be able to plan their journey through the cycle routes and available e-cycles on route, so if you wish, you can get on the train station and use an Electric cyle parked nearby to the station to get you to your friends party, early. 
+
+# Business Goals: 
+- Build brand/ introduce in the growing area of electric cycles and shared mobility.
+- We are operating a skyscanner type website, our partners will provide a small fee for the referal. 
+- Inform users of the benefits and providers of shared mobility systems and provide adtional information so that users can start their journey sooner.
+- Based on users choice, the user can then book their journey on our partners webiste. 
+- Build a communite around the website, through the newsletter. 
+- Engage users so that they can share their experience through the blog.   
+
+# User Goals:
+Users can choose one of partners who are spread across London to rent an E-Cycle for your next adventure. Why choose Electric Cycles?
+ - Get there quickly: Average user takes nearly 1 hour to commute to work. Get on a cycle and cut journey times by half. 
+ - Safer Journey: With dedicated cycle lanes commuting in busy inner cities is not just faster, but also safer.
+ - Future Planet: Take care of our planet and future generations by riding cycles.
+ - More Affordable: A monthly pass costs just GBP 60, less than half the cost of a zone 1-3 tube pass.  
+ 
+# UX
+## Target audience
+Cyclists, naturalists, green-campaigners, daily office commuters that use the Buses and Trains, for example.
+
+## User Requirements and Expectations. 
+
+## Does the website meet accessibility guidelines? Such as colour contrasts and images with “alt” attribute?
+Yes, we chose colour using Coolers. Further each image contains an alt. 
+<img src= alt="A snapshot of the coolers app showing the permitted the color templates">.
+
+
 
 # Features
 
@@ -104,3 +166,4 @@ The map in the body was taken from [Bootstrap](https://mdboostrap.com/)
 ->
 -> Logo: Border 2PX, Red, Solid, Opacity: 0.9%
 ->  
+/*<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19839.69624802684!2d-0.12612051675463581!3d51.56892957224253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b8e9f69f329%3A0x404352348e379d2!2sFinsbury%20Park%2C%20London!5e0!3m2!1sen!2suk!4v1699963791848!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>*/
