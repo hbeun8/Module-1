@@ -8,7 +8,7 @@
     padding:0;
     box-sizing: border-box;
     font-family: Exo, sans-serif;
-    /*overflow-x: hidden;*/
+    overflow-x: hidden;
 }
 
 /* General styles */
@@ -24,11 +24,15 @@ h1, h2, h3{
     font-family: 'Roboto', sans-serif;
 }
 
-p{
+p, a{
     color: #777;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 300;
+}
+
+h2{
+    font-weight: 600;
 }
 
 header{
@@ -39,7 +43,7 @@ header{
     to bottom,
     rgba(4,9,30,0.3),
     rgba(4,9,30,0.3)
-  ), url("Hero-image1.png");
+  ), url("Hero-image.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -49,8 +53,8 @@ header{
 .start-moving{
     display: flex;
     position: absolute;
-    top:20%;
-    left: 50%;
+    top:45%;
+    left:20%;
     transform: translate(-50%,-50%);
     text-align: left;
 }
@@ -65,11 +69,16 @@ header{
 
 nav{
     display: flex;
-    padding: 2% 4%;
-    justify-content: space-between;
+    width:100%;
+    padding-top: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    justify-content:center;
     align-items: center;
-    box-shadow: inset black;
     height:auto;
+    box-shadow: 0 2px 2px #fff;
+    position:fixed;
+    z-index:99;
     /*Hide these*/
 
 }
@@ -78,8 +87,10 @@ nav{
     display: none;
 }
 
-#nav-toggle > i{
+nav i{
     display: none;
+    position: absolute;
+    top: -100%;
 }
 
 
@@ -92,15 +103,20 @@ nav{
 .nav-links ul li{
     list-style: none;
     display: inline-block;
-    padding: 2px 6px;
+    padding: 0px 6px;
     position: relative;
 }
 
 .nav-links ul li a{
-    color: #fff;
+    color: #777;
     text-decoration: none;
     z-index: 99;
     font-size: 2vw;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.nav-links ul li a:hover{
+    color: #fff;
 }
 
 .nav-links ul li::after{
@@ -133,10 +149,12 @@ nav{
     color: #fff;
 }
 
-.landing-text > p,.landing-text > a {
+.landing-text > p
+ {
     font-size: 2vw;
     color: #fff;
 }
+
 
 .hero-btn{
     display: inline-block;
@@ -202,10 +220,9 @@ nav{
     padding: 50px;
 }
 
-.participants > h1{
+.participants h1,.participants p {
     color: #777;
 }
-
 
 .participants-col{
     flex-wrap:wrap;
@@ -217,7 +234,8 @@ nav{
     transition:0.5s;
 }
 
-.participants-col > h3 {
+.participants-col > 
+h3 {
     color:#777;
     text-align: center;
     font-weight: 600;
@@ -317,12 +335,24 @@ nav{
     margin: auto;
     text-align: center;
     padding: 50px;
-    background: rgba(223, 146,1,1);
-    
-    align-text: left;
 }
+
+.benefits-col{
+    background-color: rgba(223,146,1,1);
+    border-radius: 10px;
+    margin-bottom: 5%;
+     
+}
+
 .benefits ul li {
-    
+    list-style: square outside;
+    margin-bottom: 2px;
+    text-align: left;
+    color: #fff;
+}
+
+.benefits ul li:hover {
+    background: rgba(223,146,0.5);
 }
 
 .benefits h1, h2, h3, p{
