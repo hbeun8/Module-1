@@ -215,7 +215,7 @@ i {
 
 .secondary-btn:hover{
     border: 2px solid #efc395;
-    background: #efc395;
+    background: #efc395;s
     transition: 1s;
 }
 
@@ -223,6 +223,7 @@ i {
 .row{
     margin-top:5%;
     display: flex;
+    flex-wrap: wrap;
     justify-content:space-between;
 }
 
@@ -326,7 +327,6 @@ h3 {
 
 .vehicles-col img{
     margin-top:auto;
-    width:100%;
     border-radius:10px;
 }
 .vehicles-col img:hover{
@@ -343,6 +343,14 @@ h3 {
 }
 
 
+.benefits h1, h2, h3{
+    color: #777;
+}
+
+.benefits p{
+    color:#fff;
+}
+
 .benefits {
     width:100vw;
     margin: auto;
@@ -352,33 +360,33 @@ h3 {
 
 .benefits-col{
     background-color: rgba(223,146,1,1);
+    flex-basis: 100%;
     border-radius: 10px;
-    margin-bottom: 5%;
-     
+    text-align: left;
+    align-items: center;
+    z-index: 1;
 }
 
-.benefits ul li {
-    list-style: square outside;
-    margin-bottom: 2px;
+.benefits-col ul {
+    list-style-type: square; 
+    list-style-position: outside;
+    margin: 5px;
     text-align: left;
     color: #fff;
 }
 
-.benefits ul li:hover {
-    background: rgba(223,146,0.5);
-}
-
-.benefits h1, h2, h3, p{
-    color: #fff;
-}
 
 footer{
     background: rgba(67, 91, 147,1);
     width:100vw;
     margin: auto;
     text-align: center;
-    padding: 50px;
+    padding: 25px;
     z-index: -1;
+}
+
+footer h1, h2{
+    color:#fff;
 }
 
 #social-networks{
@@ -389,20 +397,21 @@ footer{
     color: #fff;
 }
 
+ul{
+    list-style-type: square;
+}
+
 #social-networks ul{
-    list-style: none;
+    list-style-type: square;
     list-style-position: outside;
     margin:0;
     padding:0;
 }
 
-
-#social-networks ul li{
-    
-}
 .radio-buttons label{
     display: inline;
 }
+
 .footer-col{
     z-index: 1;
     flex-basis: 100%;
@@ -413,7 +422,7 @@ footer{
 }
 
 #qr_code > img{
-    margin: 10px;
+    margin: 2px;
     justify-content: center;
     align-items: center;
 }
@@ -423,11 +432,10 @@ footer{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 300;
-
 }
 
 .radio-button{
-    display: inline;
+    display: block;
 }
 .join-button{
     display: inline-block;
@@ -451,9 +459,7 @@ footer{
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
-    .footer-col{
-        flex-basis: 100%;
-    }     
+    
 }
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -501,7 +507,6 @@ footer{
         height:auto;
         position:fixed;
         z-index:99;
-        box-shadow: 0 2px 2px #fff;
         width:100%
         /*Hide these*/
     
@@ -524,10 +529,17 @@ footer{
     .nav-links ul li a:hover{
         color:#fff;
     }
-   
+
+    .vehicles-col{
+        flex-basis: 50%;
+    }
+
+
     .footer-col{
-        flex-basis: 100%;
-    }     
+        flex-basis: 50%;
+    }
+    
+   
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -536,41 +548,42 @@ footer{
 .footer-col{
     flex-basis: 33%;
 }
+
+.vehicles-col{
+    flex-basis: 30%;
+}
+
 }
 @media screen and (min-width: 1200px) {
 
-.footer-col{
-    flex-basis: 33%;
-}
 }
 /*Bookings Page*/
 .booking{
     margin:auto;
     padding-top: 100px;
     text-align: center;
+    background-color: rgba(223,146,1,0.3);
 }
 
-.bookings-col{
-    flex-basis:44px;
-    border-radius:10px;
-    margin-bottom:5%;
-    text-align: left;
-    background: #fff3f3;
-    padding:25px;
-    cursor: pointer;
+form{
+    padding:0px, 50px;
 }
-
-.bookings-col p{
-    padding: 0;
-}
-
-.bookings-col h3{
-    margin-top: 16px;
-    margin-bottom: 15px;
-    text-align: left;
-}
-
-
 
 
 /*Safety Page*/
+
+/*Scroll to bottom*/
+  
+.scroll-container {
+    position: fixed;
+    bottom: 10%;
+    right:5%;
+    z-index: 99;
+  }
+
+
+   .scroll-container a {
+    color: #777;
+    cursor: pointer;
+    font-size: 20px;
+  }
