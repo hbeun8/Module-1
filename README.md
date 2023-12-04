@@ -11,7 +11,6 @@ This is the ReadMe.md for the project below. The main purpose of this document i
 Project name: Eclectic\* Cycles
 -------------------------------
 
- (https://ui.dev/amiresponsive?url=https://saba-baroughi.github.io/Final-Project-CI/)
 
 Purpose of the website: Eclectic Cycles is an online resource that provides information on how users can learn about renting electric cycles as a means of shared-mobility, like a bus or a train. The site provides details information on partners that provides E Cycles as Shared Mobility, where they operate, what types of vehicles they provide and cost.
 
@@ -23,43 +22,43 @@ Over the shorter distance, shared E-Cycles has demonstrated itself to be more vi
 
 1.  [Project Goals:](#project-goals)
 
-1.  Business Goals:
-2.  User Goals
+   Business Goals:
+   User Goals
 
-3.  [UX:](#ux)
+2.  [UX:](#ux)
 
-1.  Target Audience
-2.  User Requirement and Expectation
-3.  User Stories
+   Target Audience
+   User Requirement and Expectation
+   User Stories
 
-5.  [Design:](#design)
+3.  [Design:](#design)
 
-1.  Design Choices
-2.  Colors
-3.  Fonts
-4.  Structure
-5.  Wireframes
+   Design Choices
+   Colors
+   Fonts
+   Structure
+   Wireframes
 
-7.  [Technology Used](#tech)
+4.  [Technology Used](#tech)
 
-1.  Languages
-2.  Frameworks and Tools
+   Languages
+   Frameworks and Tools
 
-9.  [Features](#features)
-10.  [Testing](#testing)
+5.  [Features](#features)
+6.  [Testing](#testing)
 
-1.  HTML Validation
-2.  CSS Validation
-3.  Accessibility
-4.  Performance
-5.  Device Testing
-6.  Browser compatibility
-7.  Testing user stories
+   HTML Validation
+   CSS Validation
+   Accessibility
+   Performance
+   Device Testing
+   Browser compatibility
+   Testing user stories
 
-12.  [Bugs](#bugs)
-13.  [Deployment](#deployment)
-14.  [Credits](#credits)
-15.  [Acknoledgments](#acknoledgments)
+8.  [Bugs](#bugs)
+9.  [Deployment](#deployment)
+10.  [Credits](#credits)
+11.  [Acknoledgments](#acknoledgments)
 
 1\. Project Goals
 =================
@@ -183,17 +182,20 @@ Framework and Tools:Visual Studio, Github, Notepad, Paint, Canva, Google maps ap
     
     This section provides information about Partners. You will notice each partner has hover feature so it glows when the pointer appears over it. Further an embeded image, which has responsive size, also provides some context about the cycles they provide.
     
-
 Also, provides users with a summary of each particpants offering.
 
 Furthermore, it provides users with a summary of where the participants home territory is.
 
-![](Assets\Images\Screenshots\Screenshot 2023-12-04 090307.png)10.  At the Top Link
+![](Assets\Images\Screenshots\Screenshot 2023-12-04 090307.png)
+
+7.  At the Top Link
     ---------------
     
     Floating at the right-botton always located in the bottom right corner
     
-![](Assets\Images\Screenshots\ToTop.png)12.  Coverage and Cost Details for Each Provider
+![](Assets\Images\Screenshots\ToTop.png)
+
+8.  Coverage and Cost Details for Each Provider
     -------------------------------------------
     
     Details of coverage area and prices for each Provider
@@ -201,17 +203,23 @@ Furthermore, it provides users with a summary of where the participants home ter
 
 Also, it provides users with information on what types of electric vehicles are on offer from our participants.
 
-![](Assets\Images\Screenshots\Screenshot 2023-12-04 093750.png)15.  Benefits
+![](Assets\Images\Screenshots\Screenshot 2023-12-04 093750.png)
+
+9.  Benefits
     --------
     
     Description of Benefits of using Share E Cycles.
     
-![](Assets\Images\Screenshots\Screenshot 2023-12-04 094249.png)17.  Footer section with Contact Us, Form to Signup and QR Code
+![](Assets\Images\Screenshots\Screenshot 2023-12-04 094249.png)
+
+10.  Footer section with Contact Us, Form to Signup and QR Code
     ----------------------------------------------------------
     
     Please note, there is a bug in the code, as the section is not vertically aligning. This is in the desktop view. We have used Flex-basis: 33% and vertical-align: top. However, this is not a problem in Mobile view.
     
-![](Assets\Images\Screenshots\Screenshot 2023-12-04 095412.png)19.  Bookings/ Plan your Journey Page.
+![](Assets\Images\Screenshots\Screenshot 2023-12-04 095412.png)
+
+11.  Bookings/ Plan your Journey Page.
     ---------------------------------
     
     This is a demo page. The idea of this page is that users will be able to plan their journey/ get information on the cost and time it takes to travel through diverse mix of mass public transportation.
