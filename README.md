@@ -23,33 +23,33 @@ Over the shorter distance, shared E-Cycles has demonstrated itself to be more vi
 
 2.  [UX:](#ux)
 
-Target Audience<br>
-User Requirement and Expectation<br>
-User Stories
+    Target Audience<br>
+    User Requirement and Expectation<br>
+    User Stories
 
 3.  [Design:](#design)
 
-Design Choices<br>
-Colors<br>
-Fonts<br>
-Structure<br>
-Wireframes<br>
+    Design Choices<br>
+    Colors<br>
+    Fonts<br>
+    Structure<br>
+    Wireframes<br>
 
 4.  [Technology Used](#tech)
 
-Languages<br>
-Frameworks and Tools
+    Languages<br>
+    Frameworks and Tools
 
 5.  [Features](#features)
 6.  [Testing](#testing)
 
-HTML Validation<br>
-CSS Validation<br>
-Accessibility<br>
-Performance<br>
-Device Testing<br>
-Browser compatibility<br>
-Testing user stories
+    HTML Validation<br>
+    CSS Validation<br>
+    Accessibility<br>
+    Performance<br>
+    Device Testing<br>
+    Browser compatibility<br>
+    Testing user stories
 
 8.  [Bugs](#bugs)
 9.  [Deployment](#deployment)
