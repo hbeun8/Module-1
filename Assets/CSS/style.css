@@ -221,10 +221,9 @@ i {
 
 
 .row{
-    margin-top:5%;
     display: flex;
-    flex-wrap: wrap;
     justify-content:space-between;
+    align-items: center;
 }
 
 .participants{
@@ -253,64 +252,17 @@ h3 {
     color:#777;
     text-align: center;
     font-weight: 600;
-    margin:10px 0;
 }
 
 .participants-col:hover{
     box-shadow: 0 0 20px 0px;
 }
 
-.locations{
-    width: 100vw;
-    margin:auto;
-    text-align: center;
-    padding: 50px;
-}
-
-.locations > h1{
-        color: #777;
-}
-
-.locations-col{
-    flex-basis:10%;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    position: absolute;
-    overflow: hidden;
-}
-
-
-.locations-col img{
-    width:100;
-}
-
-
-.layer{
-    background: rgba(226,0,0,0.7);
-    position: absolute;
-    top:0;
-    left:0;
-}
-
-.layer1 h3{
-    width: 100%;
-    font-weight: 500;
-    color: #fff;
-    font-size: 26px;
-    bottom:0;
-}
-
-.layer1:hover h3{
-    width:49%;
-    opacity: 1;
-
-}
-
 .vehicles{
     width:100vw;
     margin: auto;
     text-align: center;
-    padding: 50px;
+    padding: 0px 50px;
 }
 
 .vehicles h1{
@@ -328,6 +280,7 @@ h3 {
 .vehicles-col img{
     margin-top:auto;
     border-radius:10px;
+    width:100%
 }
 .vehicles-col img:hover{
     box-shadow: 0 0 20px;
@@ -355,7 +308,8 @@ h3 {
     width:100vw;
     margin: auto;
     text-align: center;
-    padding: 50px;
+    padding:25px 50px;
+    
 }
 
 .benefits-col{
@@ -390,16 +344,13 @@ footer h1, h2{
 }
 
 #social-networks{
-    display:inline-block;
+    display:block;
 }
 
 #social-networks i{
     color: #fff;
 }
 
-ul{
-    list-style-type: square;
-}
 
 #social-networks ul{
     list-style-type: square;
@@ -459,7 +410,7 @@ ul{
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
-    
+   
 }
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -508,8 +459,7 @@ ul{
         position:fixed;
         z-index:99;
         width:100%
-        /*Hide these*/
-    
+        
     }
       
     .nav-toggle-label > i{
@@ -531,15 +481,13 @@ ul{
     }
 
     .vehicles-col{
-        flex-basis: 50%;
+        flex-wrap:wrap;
     }
-
 
     .footer-col{
         flex-basis: 50%;
     }
     
-   
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
