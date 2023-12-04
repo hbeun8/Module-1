@@ -18,8 +18,8 @@ Over the shorter distance, shared E-Cycles has demonstrated itself to be more vi
 
 1.  [Project Goals:](#project-goals)
 
-Business Goals<br>
-User Goals
+    Business Goals<br>
+    User Goals
 
 2.  [UX:](#ux)
 
