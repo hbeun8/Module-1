@@ -335,6 +335,7 @@ footer{
     width:100vw;
     margin: auto;
     text-align: center;
+    align-items: center;
     padding: 25px;
     z-index: -1;
 }
@@ -353,7 +354,6 @@ footer h1, h2{
 
 
 #social-networks ul{
-    list-style-type: square;
     list-style-position: outside;
     margin:0;
     padding:0;
@@ -369,7 +369,6 @@ footer h1, h2{
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
-    border-box:2px solid black;
 }
 
 #qr_code > img{
@@ -480,9 +479,6 @@ footer h1, h2{
         color:#fff;
     }
 
-    .vehicles-col{
-        flex-wrap:wrap;
-    }
 
     .footer-col{
         flex-basis: 50%;
@@ -494,11 +490,9 @@ footer h1, h2{
 @media screen and (min-width: 992px) {
 
 .footer-col{
+    display: flex;
     flex-basis: 33%;
-}
-
-.vehicles-col{
-    flex-basis: 30%;
+    vertical-align: top;
 }
 
 }
