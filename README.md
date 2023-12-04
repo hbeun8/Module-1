@@ -6,7 +6,7 @@ ReadMe.md
 
 This is the ReadMe.md for the project below. The main purpose of this document is to provide evidence of the work performed to meet the Module 1 Assessment criteria's.
 
-## Project name: Eclectic\* Cycles
+## Project name: Eclectic Cycles
 
 Purpose of the website: Eclectic Cycles is an online resource that provides information about renting electric cycles as a means of shared-mobility, like a bus or a train. The site also provides some information on partners that provides E-Cycles as Shared Mobility, where they operate, what types of vehicles they provide and cost.
 
