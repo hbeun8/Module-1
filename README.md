@@ -6,7 +6,7 @@ ReadMe.md
 
 This is the ReadMe.md for the project below. The main purpose of this document is to provide evidence of the work performed to meet the Module 1 Assessment criteria's.
 
-## Project name: Eclectic\* Cycles
+## Project name: Eclectic Cycles
 
 Purpose of the website: Eclectic Cycles is an online resource that provides information about renting electric cycles as a means of shared-mobility, like a bus or a train. The site also provides some information on partners that provides E-Cycles as Shared Mobility, where they operate, what types of vehicles they provide and cost.
 
@@ -18,38 +18,38 @@ Over the shorter distance, shared E-Cycles has demonstrated itself to be more vi
 
 1.  [Project Goals:](#project-goals)
 
-Business Goals<br>
-User Goals
+    Business Goals<br>
+    User Goals
 
 2.  [UX:](#ux)
 
-Target Audience<br>
-User Requirement and Expectation<br>
-User Stories
+    Target Audience<br>
+    User Requirement and Expectation<br>
+    User Stories
 
 3.  [Design:](#design)
 
-Design Choices<br>
-Colors<br>
-Fonts<br>
-Structure<br>
-Wireframes<br>
+    Design Choices<br>
+    Colors<br>
+    Fonts<br>
+    Structure<br>
+    Wireframes<br>
 
 4.  [Technology Used](#tech)
 
-Languages<br>
-Frameworks and Tools
+    Languages<br>
+    Frameworks and Tools
 
 5.  [Features](#features)
 6.  [Testing](#testing)
 
-HTML Validation<br>
-CSS Validation<br>
-Accessibility<br>
-Performance<br>
-Device Testing<br>
-Browser compatibility<br>
-Testing user stories
+    HTML Validation<br>
+    CSS Validation<br>
+    Accessibility<br>
+    Performance<br>
+    Device Testing<br>
+    Browser compatibility<br>
+    Testing user stories
 
 8.  [Bugs](#bugs)
 9.  [Deployment](#deployment)
