@@ -8,6 +8,11 @@ This is the ReadMe.md for the project below. The main purpose of this document i
 
 ## Project name: Eclectic Cycles
 
+<img width="686" alt="image" src="https://github.com/hbeun8/Module-1/assets/120073730/f8c6ecef-9593-4724-9e13-c5b9adb17dad">
+
+https://ui.dev/amiresponsive?url=https://hbeun8.github.io/Module-1/index.html
+
+
 Purpose of the website: Eclectic Cycles is an online resource that provides information about renting electric cycles as a means of shared-mobility, like a bus or a train. The site also provides some information on partners that provides E-Cycles as Shared Mobility, where they operate, what types of vehicles they provide and cost.
 
 **Catch-phrase**: Rent a shared E-Cycle for all your adventures. See how easy it is.
@@ -53,7 +58,7 @@ Over the shorter distance, shared E-Cycles has demonstrated itself to be more vi
 
 8.  [Bugs](#bugs)
 9.  [Deployment](#deployment)
-10. [Credits](#credits)
+10. [Speacial Thanks](#credits)
 11. [Acknowledgments](#acknowledgments)
 
 # 1\. Project Goals
@@ -109,7 +114,7 @@ Design Choice:The design choice is guided by two projects reviewed during Module
 
 **Colors:** We used Coolers color template to generate the following pallet to ensure there is adequate color contrast.
 
-![Coolers Color Pallet to ensure accessibility](Assets\Images\Eclectic Cycles.png)
+![Eclectic Cycles](https://github.com/hbeun8/Module-1/assets/120073730/fc732b6b-6ff5-4725-8efc-adce0ebbe08c)
 
 **Fonts:** We have used Robeto and Xo sourced from Google Fonts. We used global inherited size for h1, h2 and h3 and p mostly. We used additional weights
 
@@ -117,7 +122,8 @@ Design Choice:The design choice is guided by two projects reviewed during Module
 
 **Wireframe:** We created a wireframe of the website using Balsamiq online tool.
 
-![website wireframe!](Assets\Images\Wireframe.png) <br>
+<img width="300" alt="Wireframe" src="https://github.com/hbeun8/Module-1/assets/120073730/47dc8036-4d4e-441f-9e44-c35ca2751811">
+<br>
 Other Stylistic Considerations
 
 - Hero Image - Man riding the cycle
@@ -130,8 +136,8 @@ Other Stylistic Considerations
 
 # 4\. Technology Used
 
-**Languages:**HTML/CSS  
-**Framework and Tools:**Visual Studio, Github, Notepad, Paint, Canva, Google maps api.
+Languages: HTML/CSS  
+Framework and Tools: Visual Studio, Github, Notepad, Paint, Canva, Google maps api.
 
 # 5\. Features
 
@@ -140,26 +146,25 @@ Other Stylistic Considerations
     This video shows the features of the Landing Page, which includes responsive design of navigation bar and buttons. The website is mobile friendly too.
 
 2.  ## Cover Image
+![Hero-image1](https://github.com/hbeun8/Module-1/assets/120073730/5cead626-9922-44fd-8fc5-d053d7bbe178)
 
-    ![](Assets\Images\Hero-image.png)
+    The image shows a man riding a Shared Electric Cyle. The choice of image was based on UX principles. The image speaks to freedom,i.e. freedom from hassle, delay, traffic, polution, etc... In other words, it addresses the problem with traditional forms of mass public transportation.  
 
-    The image shows a man riding a Shared Electric Cyle.
+3.  ## Navigation/ Toggle Menu
+<img width="300" alt="Screenshot 2023-12-01 113326" src="https://github.com/hbeun8/Module-1/assets/120073730/ef11f95d-4a03-4c1d-b70a-ce7edf723660"><img width="150" alt="Screenshot 2023-12-01 113813 M" src="https://github.com/hbeun8/Module-1/assets/120073730/90790a45-c8b6-44c4-8d79-8f60f634562d">
 
-3.  ## Navigation
+These images show the mobile friendly and responsive navigation bar, for Desktop and Mobile views.
 
-    ![Desktop Nav Bar](Assets\Images\Screenshots\Screenshot 2023-12-01 113326.png) ![Mobile Nav Bar](Assets\Images\Screenshots\Screenshot 2023-12-01 113813 M.png)
 
-    These images show the mobile friendly and responsive navigation bar, for Desktop and Mobile views.
+5.  ## Landing Page and Navigation Bar font size is relative
 
-4.  ## Landing Page and Navigation Bar Font Size
+    The text/ font size is based on viewport width (i.e. "vw"), ensuring accessibility and ease in mobile and desktop views, i.e the size of font changes with viewport width.
 
-    The text/ font size is based on viewport width (i.e. "vw"), ensuring accessibility and ease in mobile and desktop views
+6.  ## Landing Page Button Size is relative
 
-5.  ## Landing Page Button
+    The text and button size is also based on viewport width (i.e. "vw"), this ensures the size approriateness for mobile and desktop views, , i.e the size of font changes with viewport width.
 
-    The text and button size is also based on viewport width (i.e. "vw"), this ensures the size approriateness for mobile and desktop views
-
-6.  ## Partners Page
+7.  ## Partners Page - Container has a Hover feature, Image size is responsive and External Links open in a separate browser.
 
     This section provides information about Partners. You will notice each partner has hover feature so it glows when the pointer appears over it. Further an embeded image, which has responsive size, also provides some context about the cycles they provide.<br>
 
@@ -167,43 +172,59 @@ Other Stylistic Considerations
 
     Furthermore, it provides users with a summary of where the participants home territory is.
 
-    ![](Assets\Images\Screenshots\Screenshot 2023-12-04 090307.png)
+    <img width="300" alt="Screenshot 2023-12-04 090307" src="https://github.com/hbeun8/Module-1/assets/120073730/90459844-f381-415f-814b-6fe5a8d40160">
 
-7.  ## "To Top" Link
+External Hyperlink:
+<img width="300" alt="Screenshot 2023-12-04 093436" src="https://github.com/hbeun8/Module-1/assets/120073730/8466e7e9-47e7-4d08-b456-332a706c54ca">
+
+
+8.  ## "To Top" Link
 
     Floating located in the bottom right corner, so that users can reach to the Top of the Page.
 
-    ![](Assets\Images\Screenshots\ToTop.png)
+    <img width="300" alt="ToTop" src="https://github.com/hbeun8/Module-1/assets/120073730/0382a35c-71dc-4d35-8810-8b28472d3bb0">
 
-8.  ## Coverage and Cost Details for Each Provider
 
-    Details of coverage area and prices for each Provider
+9.  ## Coverage and Cost Details for Each Provider (static*)
+
+    Details of coverage area and prices for each provider
 
     Also, this provides users with information on what types of electric vehicles are on offer from our participants.
 
-    ![](Assets\Images\Screenshots\Screenshot 2023-12-04 093750.png)
+<img width="300" alt="Screenshot 2023-12-04 093750" src="https://github.com/hbeun8/Module-1/assets/120073730/0993c38c-3bbb-4b52-953f-d75dc9bc4ea5">
 
-9.  ## Benefits
+*Please note this will be made dynamic, i.e. linked to an api when in subsequent modules. 
+
+10.  ## Benefits section (static) is a responsive container to ensure readibility in mobile and desktop views.
 
     Description of Benefits of using Shared E-Cycles.
 
-    ![](Assets\Images\Screenshots\Screenshot 2023-12-04 094249.png)
+<img width="300" alt="Screenshot 2023-12-04 094249" src="https://github.com/hbeun8/Module-1/assets/120073730/c7ed10c8-ac9b-4105-93df-f39eb840926b">
 
-10. ## Footer section with Contact Us, Form to Signup and QR Code
+
+11. ## Footer section with Contact Us, Form to Signup and QR Code
 
     Please note, there is a bug in the code, as the section is not vertically aligning. This is in the desktop view. We have used Flex-basis: 33% and vertical-align: top. However, this is not a problem in Mobile view.
 
-    ![](Assets\Images\Screenshots\Screenshot 2023-12-04 095412.png)
+Desktop View:
+<img width="300" alt="Screenshot 2023-12-04 095412" src="https://github.com/hbeun8/Module-1/assets/120073730/f1562bde-965e-40c6-8487-9583b9abc404">
 
-11. ## Bookings/ Plan your Journey Page.
+Mobile View: 
+<img width="300" alt="Screenshot 2023-12-06 180856" src="https://github.com/hbeun8/Module-1/assets/120073730/d6f46261-72c1-4780-a587-7bae59729a8d">
 
-    This is a demo page. The idea of this page is that users will be able to plan their journey/ get information on the cost and time it takes to travel through diverse mix of mass public transportation.<br>
+13. ## Bookings/ Plan your Journey Page.
+
+    This is a demo/static page. The idea of this page is that users will be able to plan their journey/ get information on the cost and time it takes to travel through diverse mix of mass public transportation.<br>
 
     Furthermore, through an embeded google maps link, user can see what bikes are available in the area giving great choice.<br>
 
     The pages used Bootsrap components. \[Bootstrap\](https://mdboostrap.com/)
 
-    ![](Assets\Images\Screenshots\Screenshot 2023-12-04 100536.png) ![](Assets\Images\Screenshots\Screenshot 2023-12-04 100639.png) ![](Assets\Images\Screenshots\Screenshot 2023-12-04 100714.png)
+<img width="300" alt="Screenshot 2023-12-04 100536" src="https://github.com/hbeun8/Module-1/assets/120073730/d1c7f3c4-182f-4688-a9e1-54eee1aeb622">
+
+<img width="300" alt="Screenshot 2023-12-04 100639" src="https://github.com/hbeun8/Module-1/assets/120073730/58c08287-d420-4a4e-b123-76ef66421674">
+
+<img width="300" alt="Screenshot 2023-12-04 100714" src="https://github.com/hbeun8/Module-1/assets/120073730/19972e92-ac60-457c-b9b0-818c059aceb2">
 
 # 6\. Testing
 
@@ -246,7 +267,7 @@ We took feedback from two group: <br>
 ## Unfixed Bugs
 
 1\. Footer Page: Vertical alignment failure in Desktop Mode. <br>
-2. Fontawesome Icons fails to load. Affects Footer and NavBar Section.
+2. Fontawesome Icons fails to load, ocassionaly. Affects Footer and NavBar Section.
 
 # 8\. Deployment
 
@@ -255,9 +276,9 @@ The site was deployed to GitHub pages. The steps to deploy were as follows:
 - In the GitHub repository, navigate to the Settings tab.<br>
 - From the source section drop-down menu, select the Master Branch.<br>
 - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.<br>
-- The live link can be found here - (https://hbeun8.github.io/]
+- The live link can be found here - (https://hbeun8.github.io/Module-1]
 
-# 9\. Credits
+# 9\. Special Thanks
 
 **Komal Karir/WAES/Code Institute**
 
