@@ -232,16 +232,17 @@ Mobile View:
 
 ### HTML
 
-No errors were returned when passing through the official for the main html. There was one error regarding font-awesome script. As that is not the main focus of the exam we have ignored it.
+No errors were returned when passing through the official validation for the main html. There was one error regarding font-awesome script. As that is not the main focus of the exam we have ignored it.
 <img width="300" alt="image" src="https://github.com/hbeun8/Module-1/assets/120073730/8e4f064f-5a05-4304-9c04-b990475c6aba">
 
-\[W3C validator\], (https://validator.w3.org/nu/#textarea)
+(https://validator.w3.org/nu/#textarea)
 
 ### CSS
 
-No errors were found when passing through the official
+No errors were found when passing through the official validator.
 <img width="590" alt="image" src="https://github.com/hbeun8/Module-1/assets/120073730/c4ff0b79-d2b7-4215-8f35-9f68088c2ae8">
-\[(Jigsaw) validator\](https://jigsaw.w3.org/css-validator/validator)
+
+(https://jigsaw.w3.org/css-validator/validator)
 
 Instructions on how to validate was taken from \[Code Institute\](https://learn.codeinstitute.net/courses/)
 
