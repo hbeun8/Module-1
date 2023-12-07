@@ -346,6 +346,9 @@ footer h1, h2{
     color:#fff;
 }
 
+.footer-col{
+    display: flex;
+}
 #social-networks{
     display:block;
 }
@@ -360,6 +363,7 @@ footer h1, h2{
     margin:0;
     padding:0;
 }
+
 
 .radio-buttons label{
     display: inline;
@@ -382,7 +386,8 @@ footer h1, h2{
 .footer-col p, label{
     color: #fff;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size
+    : 16px;
     font-weight: 300;
 }
 
@@ -484,6 +489,14 @@ footer h1, h2{
 
     .footer-col{
         flex-basis: 50%;
+        height:400px
+    }
+
+    .signup {
+        position: relative;
+        top: -20%;
+        translate: (-50%,-50%);
+        padding: 1000px;
     }
     
 }
@@ -507,10 +520,6 @@ footer h1, h2{
     padding-top: 100px;
     text-align: center;
     background-color: rgba(223,146,1,0.3);
-}
-
-form{
-    padding: 0px 50px;
 }
 
 
