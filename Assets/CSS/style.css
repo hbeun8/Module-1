@@ -1,4 +1,4 @@
-/* Google fonts import VG */ 
+/* Google fonts import */ 
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
@@ -178,12 +178,13 @@ i {
     position: relative;
     cursor: pointer;
     border-radius: 12px;
+    transition: 1s;
 }
 
 .hero-btn:hover{
     border: 2px solid #efc395;
     background: #efc395;
-    transition: 1s;
+    
 }
 
 .participants-logo{
@@ -211,6 +212,7 @@ i {
     position: relative;
     cursor: pointer;
     border-radius: 12px;
+    transition: 1s;
 }
 
 .secondary-btn:hover{
