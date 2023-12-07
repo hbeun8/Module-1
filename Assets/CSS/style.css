@@ -20,10 +20,12 @@
 }
 
 h1, h2, h3{
-    color:#fff;
+    color:#777;
     font-family: 'Roboto', sans-serif;
 }
-
+.vehicles h2, .benefits h2{
+    color: #777;
+}
 p, a{
     color: #777;
     font-family: 'Roboto', sans-serif;
@@ -235,7 +237,7 @@ i {
     padding: 50px;
 }
 
-.participants h1,.participants p {
+.participants h1,.participants h2,.participants p {
     color: #777;
 }
 
