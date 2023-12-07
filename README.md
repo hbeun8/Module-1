@@ -272,8 +272,9 @@ We took feedback from two group: <br>
 
 ## Unfixed Bugs
 
-1\. Footer Page: Vertical alignment failure in Desktop Mode. <br>
-2. Fontawesome Icons fails to load, ocassionaly. Affects Footer and NavBar Section.
+1. Fontawesome Icons fails to load, ocassionaly. Affects Footer and NavBar Section.
+2. Bug fixed: There was an error regarding vertical alignment in the footer section in the desktop view, but that has been fixed.
+3. There are no more known bugs.
 
 # 8\. Deployment
 

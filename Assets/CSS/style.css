@@ -237,7 +237,11 @@ i {
     padding: 50px;
 }
 
+<<<<<<< HEAD
 .participants h1,.participants h2,.participants p {
+=======
+.participants h1,.participants h2, .participants h3, .participants p {
+>>>>>>> 356607f4e4b0e2c24439ff9f2d4433a20923e264
     color: #777;
 }
 
@@ -269,7 +273,7 @@ h3 {
     padding: 0px 50px;
 }
 
-.vehicles h1{
+.vehicles h1, .vehicles h2,.vehicles h3,.vehicles p{
     color: #777;
 }
 
@@ -300,7 +304,7 @@ h3 {
 }
 
 
-.benefits h1, h2, h3{
+.benefits h1, .benefits h2, .benefits h3{
     color: #777;
 }
 
