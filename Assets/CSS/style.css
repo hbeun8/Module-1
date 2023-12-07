@@ -216,7 +216,7 @@ i {
 .secondary-btn:hover{
     border: 2px solid #efc395;
     background: #efc395;s
-    transition: 1s;
+
 }
 
 
@@ -508,7 +508,7 @@ footer h1, h2{
 }
 
 form{
-    padding:0px, 50px;
+    padding: 0px 50px;
 }
 
 
