@@ -90,8 +90,7 @@ i {
     visibility: visible;
     font-size: 1.5rem;
     width:fit-content;
-    
-}
+    }
 
 #nav-toggle{
     display: none;
@@ -237,12 +236,9 @@ i {
     padding: 50px;
 }
 
-<<<<<<< HEAD
-.participants h1,.participants h2,.participants p {
-=======
 .participants h1,.participants h2, .participants h3, .participants p {
->>>>>>> 356607f4e4b0e2c24439ff9f2d4433a20923e264
     color: #777;
+    
 }
 
 .participants-col{
