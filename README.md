@@ -21,18 +21,18 @@ Over the shorter distance, shared E-Cycles has demonstrated itself to be more vi
 
 ### Table of Contents:
 
-1.  [Project Goals:](#project-goals)
+1.  [Project Goals:](#1-project-goals)
 
     Business Goals<br>
     User Goals
 
-2.  [UX:](#ux)
+2.  [UX:](#2-ux)
 
     Target Audience<br> 
     User Requirement and Expectation<br>
     User Stories
 
-3.  [Design:](#design)
+3.  [Design:](#3-design)
 
     Design Choices<br>
     Colors<br>
@@ -40,13 +40,13 @@ Over the shorter distance, shared E-Cycles has demonstrated itself to be more vi
     Structure<br>
     Wireframes<br>
 
-4.  [Technology Used](#tech)
+4.  [Technology Used](#4-technology-used)
 
     Languages<br>
     Frameworks and Tools
 
-5.  [Features](#features)
-6.  [Testing](#testing)
+5.  [Features](#5-features)
+6.  [Testing](#6-testing)
 
     HTML Validation<br>
     CSS Validation<br>
@@ -56,12 +56,12 @@ Over the shorter distance, shared E-Cycles has demonstrated itself to be more vi
     Browser compatibility<br>
     Testing user stories
 
-8.  [Bugs](#bugs)
-9.  [Deployment](#deployment)
-10. [Special Thanks](#credits)
-11. [Acknowledgments](#acknowledgments)
+8.  [Bugs](#8-bugs)
+9.  [Deployment](#9-deployment)
+10. [Special Thanks](#10-special-thanks)
+11. [Acknowledgments](#11-acknowledgments)
 
-# 1\. Project Goals {#project-goals}
+# 1\. Project Goals
 
 The purpose of the project is to showcase the benefits of using E-Cycles for daily commute to work, shopping or to just cycle around. Whilst users understand and acknowledge that using cycles is better for the planet, our research shows they do not really understand that it is also cheaper, quicker, safer and healthier. This can be true in wide variety of scenarios, but not all. The users will learn in what scenarios this is true via the Journey Planner. They will also learn more about providers of shared E-Cycles and their offering. Finally, the users will be able to plan their journey through cycle-routes and coverage of e-cycles on route.
 
@@ -82,7 +82,7 @@ Users can choose one of our partners who are spread across London to rent an E-C
 - Greener Planet: Take care of our planet and future generations by riding cycles.
 - More Affordable: A monthly pass costs just GBP 60, less than half the cost of a zone 1-3 tube pass.
 
-# 2\. UX {#ux}
+# 2\. UX
 
 ## Target audience
 
@@ -104,7 +104,7 @@ Based on sample based assessments, the users expect:
 
 This website was created based on feedback of commuters based in London who were not aware of all the benefits of shared electric cycles. This website is created to address the gap.
 
-# 3\. Design {#design}
+# 3\. Design
 
 This section will address questions relating to design choices, colors, fonts, structure and wireframe.
 
@@ -134,12 +134,12 @@ Other Stylistic Considerations
 - Nav Links UL LI: List-style = none, display = inline block, padding = 8px, 12px, position = relative.
 - Logo: Border 2PX, Red, Solid, Opacity: 0.9%
 
-# 4\. Technology Used {#tech}
+# 4\. Technology Used
 
 Languages: HTML/CSS  
 Framework and Tools: Visual Studio, Github, Notepad, Paint, Canva, Google maps api.
 
-# 5\. Features {#features}
+# 5\. Features
 
 1.  ## Landing Page
 
@@ -226,7 +226,7 @@ Mobile View:
 
 <img width="300" alt="Screenshot 2023-12-04 100714" src="https://github.com/hbeun8/Module-1/assets/120073730/19972e92-ac60-457c-b9b0-818c059aceb2">
 
-# 6\. Testing {#testing}
+# 6\. Testing
 
 ## Validator Testing
 
@@ -268,7 +268,7 @@ We took feedback from two group: <br>
 1. General user on the UX design and stories.<br> 
 2. Student Coders in classroom on the design principles and other technical aspects. Based on the feedback provided, the website was enhanced to incorporate the suggestion.
 
-# 7\. Bugs {#bugs}
+# 7\. Bugs
 
 ## Unfixed Bugs
 
@@ -276,7 +276,7 @@ We took feedback from two group: <br>
 2. Bug fixed: There was an error regarding vertical alignment in the footer section in the desktop view, but that has been fixed.
 3. There are no more known bugs.
 
-# 8\. Deployment {#deployment}
+# 8\. Deployment
 
 The site was deployed to GitHub pages. The steps to deploy were as follows:
 
@@ -285,11 +285,11 @@ The site was deployed to GitHub pages. The steps to deploy were as follows:
 - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.<br>
 - The live link can be found here - (https://hbeun8.github.io/Module-1]
 
-# 9\. Special Thanks {#credits}
+# 9\. Special Thanks
 
 **Komal Karir/WAES/Code Institute**
 
-# 10\. Acknowledgments {#acknowledgments}
+# 10\. Acknowledgments
 
 The design and coding choices were guided by two projects reviewed during Module 1 of Full Stack Boot Camp Operated by the WAES and Code Institute:  
 1\. Love running  
