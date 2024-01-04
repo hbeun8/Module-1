@@ -21,7 +21,7 @@ Over the shorter distance, shared E-Cycles has demonstrated itself to be more vi
 
 ### Table of Contents:
 
-1.  [Project Goals:](#1.-project-goals)
+1.  [Project Goals:](#-1\.-project-goal)
 
     Business Goals<br>
     User Goals
